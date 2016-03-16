@@ -1,0 +1,33 @@
+<style type="text/css">
+*, *:after, *:before {
+	font-family: arial, sans-serif;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+#body {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 990px) {
+
+}
+
+@media only screen and (max-width: 769px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+
+
+</style>
