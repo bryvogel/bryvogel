@@ -216,8 +216,10 @@ display: none;
   width: 75px !important;
 }
 
-
-
+.social {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 .footerIcon {
   text-decoration: none;
