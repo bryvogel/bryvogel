@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header {
-  height: 10vh;
+  height: 5vh;
 }
 
 body {
@@ -26,7 +26,7 @@ html, body {
 
 .wrapper {
   text-align: center;
-	min-height: 90%;
+	min-height: 95%;
 	margin: 0 auto -155px;
 }
 
@@ -92,7 +92,7 @@ html, body {
   fill: rgb(77, 79, 83);
   opacity: 1;
 }
-.dribbble:hover {
+.dribbble:hover, .dribbble2:hover ~ .dribbble {
   fill: #ea4c89;
   opacity: 1;
 }
@@ -101,7 +101,7 @@ html, body {
   fill: rgb(77, 79, 83);
   opacity: 1;
 }
-.twitter:hover {
+.twitter:hover, .twitter2:hover ~ .twitter {
   fill: #00aced;
   opacity: 1;
 }
@@ -110,7 +110,7 @@ html, body {
   fill: rgb(77, 79, 83);
   opacity: 1;
 }
-.youtube:hover {
+.youtube:hover, .youtube2:hover ~ .youtube {
   fill: red;
   opacity: 1;
 }
@@ -119,7 +119,7 @@ html, body {
   fill: rgb(77, 79, 83);
   opacity: 1;
 }
-.linkedin:hover {
+.linkedin:hover, .linkedin2:hover ~ .linkedin {
   fill: #007bb6;
   opacity: 1;
 }
@@ -128,32 +128,7 @@ html, body {
   fill: rgb(77, 79, 83);
   opacity: 1;
 }
-.mail:hover {
-  fill: orange;
-  opacity: 1;
-}
-
-.dribbble2:hover ~ .dribbble {
-  fill: #ea4c89;
-  opacity: 1;
-}
-
-.twitter2:hover ~ .twitter {
-  fill: #00aced;
-  opacity: 1;
-}
-
-.youtube2:hover ~ .youtube {
-  fill: red;
-  opacity: 1;
-}
-
-.linkedin2:hover ~ .linkedin {
-  fill: #007bb6;
-  opacity: 1;
-}
-
-.mail2:hover ~ .mail {
+.mail:hover, .mail2:hover ~ .mail {
   fill: orange;
   opacity: 1;
 }
@@ -167,13 +142,85 @@ html, body {
 }
 
 @media only screen and (max-width: 769px) {
-
+.content {
+  padding: 0 10px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 @media only screen and (max-width: 480px) {
 
+.header {
+  height: 3vh;
+}
+
+.wrapper {
+  text-align: center;
+	min-height: 90%;
+	margin: 0 auto -155px;
+}
+
+.content {
+  padding: 0 10px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 62vh;
+}
+
+.footer {
+  text-align: center;
+}
+.logo img {
+  width: 40%;
+  margin: 0;
+}
+
+.name img {
+  width: 70%;
+  margin: 1vh 0 3vh 0;
+}
+
+.text p {
+display: none;
+}
+
+.btn {
+	border: 2px solid rgb(77, 79, 83);
+	color: rgb(77, 79, 83);
+	border-radius: 30px;
+	display:inline-block;
+	padding:20px 80px;
+	max-width: 100%;
+	text-align:center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: orange;
+	color: #fff;
+  border: none;
+}
+
+.btnSpace {
+  margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#twitter, #youtube, #mail, #linkedin, #dribbble {
+  height: 75px !important;
+  width: 75px !important;
 }
 
 
 
+
+.footerIcon {
+  text-decoration: none;
+}
+}
 </style>
