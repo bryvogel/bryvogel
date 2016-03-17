@@ -55,7 +55,7 @@ html, body {
 }
 
 .text p {
-  padding-top: 1vh;
+  padding-top: 3vh;
 }
 
 .btn {
@@ -68,6 +68,7 @@ html, body {
 	text-align:center;
 	text-decoration: none;
 	cursor: pointer;
+  font-size: 16;
 }
 
 .btn:hover {
