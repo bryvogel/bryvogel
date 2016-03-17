@@ -133,6 +133,31 @@ html, body {
   opacity: 1;
 }
 
+.dribbble2:hover ~ .dribbble {
+  fill: #ea4c89;
+  opacity: 1;
+}
+
+.twitter2:hover ~ .twitter {
+  fill: #00aced;
+  opacity: 1;
+}
+
+.youtube2:hover ~ .youtube {
+  fill: red;
+  opacity: 1;
+}
+
+.linkedin2:hover ~ .linkedin {
+  fill: #007bb6;
+  opacity: 1;
+}
+
+.mail2:hover ~ .mail {
+  fill: orange;
+  opacity: 1;
+}
+
 @media only screen and (max-width: 1200px) {
 
 }
