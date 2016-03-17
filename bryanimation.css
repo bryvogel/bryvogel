@@ -1,9 +1,15 @@
 <style type="text/css">
 *, *:after, *:before {
-	font-family: arial, sans-serif;
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+  color: rgb(77, 79, 83);
 }
 
 .header {
@@ -20,8 +26,15 @@ html, body {
 
 .wrapper {
   text-align: center;
-  min-height: 90%;
-  margin: 0 auto -155px;
+	min-height: 90%;
+	margin: 0 auto -155px;
+}
+
+.content {
+  max-width: 800px;
+  min-height: 72vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
@@ -32,8 +45,92 @@ html, body {
 	height: 155px;
 }
 
+.logo img {
+  max-width: 250px;
+}
+
+.name img {
+  max-width: 400px;
+  margin: 3vh 0 5vh 0;
+}
+
+.text p {
+  padding-top: 1vh;
+}
+
+.btn {
+	border: 2px solid rgb(77, 79, 83);
+	color: rgb(77, 79, 83);
+	border-radius: 30px;
+	display:inline-block;
+	padding:20px 80px;
+	width:auto;
+	text-align:center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: orange;
+	color: #fff;
+  border: none;
+}
+
+.btnSpace {
+  margin-top: 3vh;
+}
+
+.social {
+  cursor: pointer;
+}
+
 .footerIcon {
-  width: 75px;
+  text-decoration: none;
+}
+
+.dribbble {
+  fill: rgb(77, 79, 83);
+  opacity: 1;
+}
+.dribbble:hover {
+  fill: #ea4c89;
+  opacity: 1;
+}
+
+.twitter {
+  fill: rgb(77, 79, 83);
+  opacity: 1;
+}
+.twitter:hover {
+  fill: #00aced;
+  opacity: 1;
+}
+
+.youtube {
+  fill: rgb(77, 79, 83);
+  opacity: 1;
+}
+.youtube:hover {
+  fill: red;
+  opacity: 1;
+}
+
+.linkedin {
+  fill: rgb(77, 79, 83);
+  opacity: 1;
+}
+.linkedin:hover {
+  fill: #007bb6;
+  opacity: 1;
+}
+
+.mail {
+  fill: rgb(77, 79, 83);
+  opacity: 1;
+}
+.mail:hover {
+  fill: orange;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -55,14 +152,3 @@ html, body {
 
 
 </style>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75278202-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
