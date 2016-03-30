@@ -188,21 +188,8 @@ display: none;
 }
 
 .btn {
-	border: 2px solid rgb(77, 79, 83);
-	color: rgb(77, 79, 83);
-	border-radius: 30px;
-	display:inline-block;
-	padding:20px 80px;
 	max-width: 100%;
-	text-align:center;
-	text-decoration: none;
-	cursor: pointer;
-}
 
-.btn:hover {
-	background-color: orange;
-	color: #fff;
-  border: none;
 }
 
 .btnSpace {
