@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header {
-  height: 5vh;
+  height: 0vh;
 }
 
 body {
@@ -31,10 +31,19 @@ html, body {
 }
 
 .content {
-  max-width: 800px;
-  min-height: 72vh;
+  max-width: 600px;
+  min-height: 50vh;
   margin-left: auto;
   margin-right: auto;
+}
+
+.content2 {
+  max-width: 80%;
+  min-height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  display: inline;
 }
 
 .footer {
@@ -45,13 +54,18 @@ html, body {
 	height: 155px;
 }
 
+.gif {
+  margin: 5px;
+  max-width: 270px;
+}
+
 .name  {
   max-width: 600px;
-  margin: 10vh 0 5vh 0;
+  margin: 3vh 0 3vh 0;
 }
 
 .text p {
-  padding-top: 3vh;
+  padding-top: 1vh;
   font-size: 16;
 }
 
@@ -60,12 +74,13 @@ html, body {
 	color: rgb(77, 79, 83);
 	border-radius: 50px;
 	display:inline-block;
-	padding:20px 80px;
+	padding:15px 60px;
 	width:auto;
 	text-align:center;
 	text-decoration: none;
 	cursor: pointer;
   font-size: 16;
+  mix-blend-mode: darken;
 }
 
 .btn:hover {
@@ -76,7 +91,7 @@ html, body {
 }
 
 .btnSpace {
-  margin-top: 7vh;
+  margin-top: 2vh;
 }
 
 .social {
@@ -172,7 +187,7 @@ html, body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 62vh;
+  min-height: 50vh;
 }
 
 .footer {
@@ -182,10 +197,6 @@ html, body {
 .name {
   width: 85%;
   margin: 1vh 0 3vh 0;
-}
-
-.text p {
-display: none;
 }
 
 .btn {
